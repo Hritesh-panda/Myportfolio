@@ -1,5 +1,6 @@
 import React from "react";
 import "./education.css";
+import eduimg from "../images/Learning-cuate.png";
 const Education = () => {
   return (
     <div id="educationpage">
@@ -38,7 +39,7 @@ const Education = () => {
             </div>
           </div>
           <div className="col-lg-6">
-            <img src="Learning-cuate.png" alt="no" className="edu-img mt-5" />
+            <img src={eduimg} alt="no" className="edu-img mt-5" />
           </div>
         </div>
       </div>
