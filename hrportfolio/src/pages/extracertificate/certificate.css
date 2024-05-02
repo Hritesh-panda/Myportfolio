@@ -1,0 +1,26 @@
+.cer-content {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.cer-content h1 {
+  font-size: 2rem;
+  color: #115bfb;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.cer-content h2 {
+  font-size: 1.2rem;
+  color: #115bfb;
+  font-weight: 200;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.3rem;
+  margin-bottom: 1rem;
+}
+.interest-cer {
+  background-color: whitesmoke;
+  padding: 50px 0;
+}
+.cer-content span {
+  color: #010101;
+  padding-bottom: 15px;
+}

@@ -1,0 +1,165 @@
+.a-container {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+.a-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0101018e;
+}
+.about-me {
+  background-color: #115bfb;
+  width: 100%;
+  height: 80vh;
+}
+.ab-txt {
+  position: absolute;
+  bottom: 10%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+.ab-txt h1 {
+  font-size: 3rem;
+  color: #f4f9fd;
+  font-weight: 200;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.3rem;
+}
+.ab-txt h2 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.3rem;
+  color: #f4f9fd;
+}
+.ab-txt h6 {
+  color: #f4f9fd;
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+}
+.my-content {
+  margin: 0 20px;
+}
+.sk-a {
+  margin-top: 2rem;
+  margin-bottom: 3.5rem;
+  text-align: center;
+}
+.sk-a span {
+  color: #f4f9fd;
+  font-size: 1rem;
+  padding-bottom: 5px;
+  font-weight: 200;
+  text-align: left;
+}
+.my-content h1 {
+  font-size: 2rem;
+  color: #f4f9fd;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.mypic-content {
+}
+.mypic-content img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  image-resolution: 300dpi;
+  margin-top: 10px;
+}
+.en-a span {
+  color: #f4f9fd;
+}
+.en-a span {
+  color: #f4f9fd;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+.links {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.s-icn {
+  color: black;
+  padding: 7px 10px;
+  border-radius: 50%;
+  background: white;
+}
+.s-icn:hover {
+  color: #5066ff;
+  background: #fff;
+}
+.my-content button {
+  margin-top: 3rem;
+  padding: 7px 10px;
+  color: #115bfb;
+  background: #f4f9fd;
+  border: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.my-content button:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+@media screen and (max-width: 640px) {
+  .a-container {
+    height: 50vh;
+  }
+  .about-me {
+    height: 63vh;
+  }
+  .ab-txt {
+    left: 10%;
+    bottom: 30%;
+    transform: translate(0, 0);
+  }
+  .ab-txt h1 {
+    font-size: 1.5rem;
+  }
+  .ab-txt h2 {
+    font-size: 2.5rem;
+  }
+  .ab-txt h6 {
+    font-size: 1rem;
+  }
+  .sk-a {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .my-content button {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  }
+  .links {
+    width: 60%;
+    margin-left: 70px;
+  }
+  .about-cont {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  .my-content {
+    /* padding-bottom: 10rem; */
+    overflow: hidden;
+  }
+  .about-content {
+    overflow: hidden;
+  }
+}

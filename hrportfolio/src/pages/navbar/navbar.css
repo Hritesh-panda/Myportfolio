@@ -1,0 +1,35 @@
+.nav-color {
+  background-color: #115bfb;
+  width: 100%;
+}
+.nav-li {
+  color: #f4f9fd;
+  font-size: 1.1rem;
+  padding-right: 25px !important;
+  font-weight: 400;
+  position: relative;
+}
+.nav-li::after {
+  content: "";
+  position: absolute;
+  left: 7px;
+  bottom: 5px;
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease-out;
+}
+.nav-li:hover {
+  color: #010101;
+}
+.nav-li:hover::after {
+  width: 90%;
+  background-color: #010101;
+}
+.nav-btn {
+  color: #f4f9fd !important;
+  border: 1px solid #f4f9fd !important;
+}
+.navbar-toggler-icon {
+  color: #f4f9fd;
+}

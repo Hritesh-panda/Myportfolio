@@ -1,0 +1,10 @@
+.sp-container {
+  display: flex;
+  width: 60vw;
+  height: auto;
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #eff3f2;
+}

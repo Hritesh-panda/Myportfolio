@@ -1,0 +1,54 @@
+.contact-page {
+  background-color: #010101;
+  padding: 100px 0;
+}
+.c-content {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.c-content h1 {
+  font-size: 3rem;
+  color: #115bfb;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.c-content h2 {
+  color: #115bfb;
+  font-weight: 200;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.3rem;
+  margin-bottom: 2rem;
+}
+.c-btn {
+  color: #fff;
+  background-color: #115bfb;
+  font-size: 1.1rem;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.c-textarea {
+  resize: none;
+  background: none;
+  border: 1px solid #fff;
+  outline: none;
+  color: #fff;
+  padding-top: 10px;
+  font-size: 1.1rem;
+}
+.c-inp {
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+  outline: none;
+  padding: 5px 0;
+}
+.con-btn {
+  padding: 7px 10px;
+  background-color: #115bfb;
+  color: white;
+  border: none;
+  margin-top: 1rem;
+}

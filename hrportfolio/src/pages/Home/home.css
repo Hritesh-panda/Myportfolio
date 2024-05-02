@@ -1,0 +1,17 @@
+.arrow {
+  position: fixed;
+  right: 2%;
+  bottom: 15%;
+}
+.arrow .up-btn {
+  padding: 3px 10px;
+  border: none;
+  border-radius: 50%;
+  background: #115bfb;
+  cursor: pointer;
+}
+.arrow .up-btn i {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 800;
+}
