@@ -1,8 +1,10 @@
 import React from "react";
 import "./about.css";
+import aboutimg1 from "../images/aboutimg.avif";
+import mypic from "../images/mypic.jpg";
 import { Link } from "react-router-dom";
 const About = () => {
-  const resumeUrl = "HRITESH PANDA RESUME1-2.PDF";
+  const resumeUrl = "resume.pdf";
   const handleresume = () => {
     window.open(resumeUrl, "_blank");
   };
@@ -11,7 +13,7 @@ const About = () => {
       <div className="row about-cont m-0">
         <div className="col-lg-9 col-sm-12 p-0">
           <div className="a-container">
-            <img src="aboutimg.avif" alt="no" />
+            <img src={aboutimg1} alt="no" />
             <div className="about-content">
               <div className="container">
                 <div className="ab-txt">
@@ -28,7 +30,7 @@ const About = () => {
             <div className="container">
               <div className="my-content">
                 <div className="mypic-content">
-                  <img src="mypic.jpg" alt="" />
+                  <img src={mypic} alt="yes" />
                 </div>
                 <h1>Hritesh Panda.</h1>
                 <div className="sk-a">
