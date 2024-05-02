@@ -76,7 +76,7 @@ const Project = () => {
                   </div>
                   <h4 className="text-start">Title</h4>
                   <p className="text-start">
-                    Lorem ipsum dolor sit. <br /> Lorem ipsum dolor sit amet.{" "}
+                    Lorem ipsum dolor sit. <br />
                   </p>
                 </div>
               </SwiperSlide>
@@ -90,6 +90,10 @@ const Project = () => {
                       </button>
                     </div>
                   </div>
+                  <h4 className="text-start">Title</h4>
+                  <p className="text-start">
+                    Lorem ipsum dolor sit. <br />
+                  </p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
@@ -103,6 +107,10 @@ const Project = () => {
                       </button>
                     </div>
                   </div>
+                  <h4 className="text-start">Title</h4>
+                  <p className="text-start">
+                    Lorem ipsum dolor sit. <br />
+                  </p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
@@ -115,6 +123,10 @@ const Project = () => {
                       </button>
                     </div>
                   </div>
+                  <h4 className="text-start">Title</h4>
+                  <p className="text-start">
+                    Lorem ipsum dolor sit. <br />
+                  </p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
@@ -127,6 +139,10 @@ const Project = () => {
                       </button>
                     </div>
                   </div>
+                  <h4 className="text-start">Title</h4>
+                  <p className="text-start">
+                    Lorem ipsum dolor sit. <br />
+                  </p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
@@ -139,6 +155,10 @@ const Project = () => {
                       </button>
                     </div>
                   </div>
+                  <h4 className="text-start">Title</h4>
+                  <p className="text-start">
+                    Lorem ipsum dolor sit. <br />
+                  </p>
                 </div>
               </SwiperSlide>
             </Swiper>
